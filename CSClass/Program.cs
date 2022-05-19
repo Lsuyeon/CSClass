@@ -37,6 +37,7 @@ namespace CSClass
             Console.WriteLine(random.NextDouble());
             Console.WriteLine(random.NextDouble() * 10);
 
+
         }
     }
 }
