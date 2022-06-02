@@ -121,6 +121,19 @@ namespace CSClass
             Console.WriteLine(method.Multi(52.1, 273));
             Console.WriteLine(method.Sum(1, 100));
             Console.WriteLine(method.Multiply(1, 3));
+
+
+            //int
+            Console.WriteLine(MyMath.Abs(52));
+            Console.WriteLine(MyMath.Abs(-52));
+            //double
+            Console.WriteLine(MyMath.Abs(52.0912));
+            Console.WriteLine(MyMath.Abs(-52.0912));
+            //long
+            Console.WriteLine(MyMath.Abs(222234567899L));
+            Console.WriteLine(MyMath.Abs(-222234567899L));
+
+
         }
     }
 }
